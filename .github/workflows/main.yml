@@ -9,7 +9,7 @@ jobs:
       id: hello
       uses: /AnX1001/WebTest
       with:
-        who-to-greet: 'James'
+        who-to-greet: 'A'
     # Use the output from the `hello` step
     - name: Get the output time
       run: echo "The time was ${{ steps.hello.outputs.time }}"
