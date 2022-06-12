@@ -7,7 +7,7 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: AnX1001/WebTest@v1
+      uses: AnX1001/WebTest
       with:
         who-to-greet: 'AnX1001'
     # Use the output from the `hello` step
